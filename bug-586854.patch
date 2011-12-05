@@ -1,0 +1,16 @@
+diff -rup lohit-bengali-2.4.3/66-lohit-bengali.conf lohit-bengali-2.4.3_mod/66-lohit-bengali.conf
+--- lohit-bengali-2.4.3/66-lohit-bengali.conf	2009-09-09 15:18:33.000000000 +0530
++++ lohit-bengali-2.4.3_mod/66-lohit-bengali.conf	2010-05-04 14:38:44.000000000 +0530
+@@ -8,10 +8,11 @@
+   <test name="family">
+     <string>sans-serif</string>
+   </test>
+-  <edit name="family" mode="prepend_first" binding="same">
++  <edit name="family" mode="prepend">
+     <string>Lohit Bengali</string>
+   </edit>
+ </match>
++
+ <alias>
+   <family>Lohit Bengali</family>
+   <default>
